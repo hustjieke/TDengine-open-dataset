@@ -117,7 +117,7 @@ $ python3 taosFetch.py
 
 ## 简单 dashboard 展示
 这里我们用 grafana 连接到 TDengine 服务器进行波形展示，具体方式见 [grafana 配置说明](https://www.taosdata.com/docs/cn/v2.0/connections#)
- ![Alt text](./1648797658746.png)
+ ![Alt text](./dashboard.png)
 
 
 
