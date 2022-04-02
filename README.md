@@ -2,10 +2,11 @@
 
 **欢迎来到 TDengine 开放数据服务中心！**
 
-
 该网站是一个开放数据集，从国内数据中心数据实时获取，您可以很方便从这里获取数据并使用它，用于科学研究、算法分析等。
 
-**已支持数据集**
+# **[用户注册](test)**
+
+# 已支持数据集
 
 [地震](test)
 
@@ -92,7 +93,7 @@ tags ： 台网名(net)、台站名(sta)、位置号(loc)、通道号(chn)
 
 ### 安装连接器
 
-[TDengine python 连接器安装指南](https://www.taosdata.com/docs/cn/v2.0/connector#python) 。
+使用 python 连接到 TDengine 数据库，需要安装 [TDengine python 连接器](https://www.taosdata.com/docs/cn/v2.0/connector#python) 。
 
 ### 使用注册的用户名，密码连接到 TDengine 服务器
 
@@ -113,7 +114,7 @@ for row in results:
 ```
 执行示例：
 ```
-ubuntu@u0-96:~/work/github/seedlink2taos_py/q1$ python3 taosConn.py 
+$ python3 taosConn.py 
 ('log', datetime.datetime(2022, 3, 30, 12, 11, 33, 543000), 21, 1, 1, 1, 10, '30', 1, 3, 100, 4096, 1, 3000, 2, 0, 'us', 0, 'ready')
 ('seisflink', datetime.datetime(2022, 3, 30, 15, 49, 47, 193000), 5, 1, 1, 1, 10, '3650', 16, 6, 100, 4096, 1, 3000, 2, 0, 'ms', 0, 'ready')
 ```
