@@ -30,6 +30,8 @@
 
 如果您可以帮助改进这些资源，请[联系我们](test)。或者在 [Github](test) 上提出 issue。或者直接给我们发电子邮件。
 
+![Alt text](./email.png)
+
 
 
 
